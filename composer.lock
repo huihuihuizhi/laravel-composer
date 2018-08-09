@@ -1,0 +1,51 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1112e981165f71e15114f95221dc5440",
+    "packages": [
+        {
+            "name": "xiaohigh/curl",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xiaohigh/curl.git",
+                "reference": "b30a20c5909a3bcbbe1195ad449505a122a4456c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xiaohigh/curl/zipball/b30a20c5909a3bcbbe1195ad449505a122a4456c",
+                "reference": "b30a20c5909a3bcbbe1195ad449505a122a4456c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "xiaohigh\\": "./src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "xiaohigh",
+                    "email": "xiaohigh@163.com"
+                }
+            ],
+            "description": "封装好的一个curl类,用来在php脚本中,发送get请求和post请求",
+            "time": "2016-07-24T13:07:46+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
